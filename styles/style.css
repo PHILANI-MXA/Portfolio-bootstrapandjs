@@ -36,3 +36,42 @@ body {
     object-fit: cover;
     object-position: 0 0px;
 }
+
+section {
+    overflow: auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .nav-item {
+        border-radius: 50%;
+        width: 6em;
+    }
+}
+
+.progress-bar {
+    height: 2.5px;
+}
+
+.progress {
+    height: 5px;
+    line-height: 0.1;
+}
+
+@media screen and (max-width: 575px) {
+    .nav-item {
+        border-radius: 50%;
+        width: 6em;
+    }
+}
+
+a:hover {
+    color: #20c997;
+    margin: 10px;
+}
+
+.size {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
