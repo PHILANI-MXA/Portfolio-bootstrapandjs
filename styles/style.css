@@ -66,12 +66,16 @@ section {
 }
 
 a:hover {
-    color: #20c997;
-    margin: 10px;
+    color: orangered;
 }
 
 .size {
     height: 50%;
     width: 50%;
     margin: auto;
+}
+
+.life {
+    height: 60%;
+    width: 80%;
 }
